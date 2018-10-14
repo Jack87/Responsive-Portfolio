@@ -140,14 +140,14 @@ figcaption {
 .imageContainer {
     float: left;
 }
-.hover-outline { 
+/* .hover-outline { 
     margin-left: 30px;
     margin-top: 10px;
 }
 .hover-outline:hover {
     outline: 5px solid gray;
     outline-offset: 10px;
-}
+} */
 footer {
     width: 100%;
 	padding: 15px;
@@ -203,6 +203,7 @@ footer {
     }
 }
 @media screen and (max-width: 640px) {
+    min-width: 620px;
     li {
         height: 10px;
     }
@@ -216,6 +217,29 @@ footer {
     .headshot {
         width: 60%;
     }
+    .gallary {
+        min-width: 620px;
+    }
+    .portfolioIMG, figure {
+        widows: 100%;
+        height: auto;
+    }
+    /* figure {
+        width: 90%;
+    }
+    .portfolioIMG {
+        width: 200;
+    }
+    .hover-outline {
+        width: 80%;
+    }
+    .hover-outline:hover {
+        width: 80%;
+    } */
+    /* img {
+        width: 60%;
+    } */
+
 }
 @media screen and (max-width: 500px) {
     .logo {
