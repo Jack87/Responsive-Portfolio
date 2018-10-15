@@ -140,14 +140,14 @@ figcaption {
 .imageContainer {
     float: left;
 }
-/* .hover-outline { 
+.hover-outline { 
     margin-left: 30px;
     margin-top: 10px;
 }
 .hover-outline:hover {
     outline: 5px solid gray;
     outline-offset: 10px;
-} */
+}
 footer {
     width: 100%;
 	padding: 15px;
@@ -203,7 +203,6 @@ footer {
     }
 }
 @media screen and (max-width: 640px) {
-
     li {
         height: 10px;
     }
@@ -231,27 +230,14 @@ footer {
         padding-top: 10px;
         font-size: 16px;
     }
-
-    /* figure {
-        width: 90%;
-    }
-    .portfolioIMG {
-        width: 200;
-    }
-    .hover-outline {
-        width: 80%;
-    }
-    .hover-outline:hover {
-        width: 80%;
-    } */
-    /* img {
-        width: 60%;
-    } */
-
 }
 @media screen and (max-width: 506px) {
+    header {
+        min-width: 383px;
+        margin: 0 auto;
+    }
     .content {
-        width: 506px;
+        width: 400px;
         margin: 0 auto;
     }
     .logo {
